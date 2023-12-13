@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Hobbies</title>
+</head>
+
+<body background="wallpaper.jpg">
+  <style>
+    body{
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      font-family: arial, sans-serif;
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+  </style>
+
+
+<body>
+    <a href="top"></a>
+      <nav class="navbar">
+    <style>
+      body {
+        margin: 0;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .header {
+        background-color: #a33434;
+        padding: 25px;
+        text-align: center;
+      }
+      
+      #navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      #navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 6px 8px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      #navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      #navbar a.active {
+        background-color: #a33434;
+        color: white;
+      }
+      
+      .content {
+        padding: 16px;
+      }
+      
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .sticky + .content {
+        padding-top: 60px;
+      }
+      </style>
+      </head>
+
+      
+      <div id="navbar">
+        
+        <a href="index.html" target="_blank">About Me</a>
+        <a href="my-family.html">Family</a>
+        <a href="education.html">My Education</a></li>
+        <a href="hobby.html">Hobbies</a></li>
+        <a href="favorite-songs.html">Favorite Songs</a>
+        <a href="favorite-games.html">Favorite Games</a>
+        <a href="my-bestfriends.html">My Bestfriends</a>
+      </div>
+    </nav>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
+    
+
+  </head>
+
+<br>
+<br>
+<h1 align="center">My Hobbies</h1>
+<p align="center">What I'd like to do in my free time are, I like watching movies, watching anime, watching Kdrama, playing games, taking picture of the moon, and making paperstars.</p>
+
+<body>
+  <nav class="navbar">
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .navbar {
+        overflow: hidden;
+        background-color: #a33434;
+      }
+      
+      .navbar a {
+        float: center;
+        font-size: 13px;
+        color: white;
+        text-align: center;
+        padding: 11px 13px;
+        text-decoration: none;
+      }
+      </style>
+      </head>
+
+      
+      <div class="navbar">
+        <a href="#kdrama">Shows</a>
+        <a href="#games">Playing Video Games</a>
+        <a href="#paperstars">Origami</a></li>
+        <a href="#pictures">Taking Pctures</Picture></a></li>
+
+      </div>
+    </nav>
+
+<center><a name="kdrama"></a></center>
+<center><h2>Favorite Shows</h2></center>
+<br>
+<center>
+<img src="fav-show-kdrama-2.jpg">
+<p>Weak Hero Class 1</p>
+<img src="fav-show-anime-1.jpg">
+<p>Shingeki No Kyojin</p>
+<img src="fav-show-eng-1.jpg">
+<p>John Wick</p>
+</center>
+
+<br>
+<center><a name="games"></a></center>
+<center><h2>Playing Video Games</h2></center>
+<br>
+<center>
+  <img src="pizza.jpg">
+  <p>1. Pizza Frenzy</p>
+  <img src="honkai-impact.jpeg">
+  <p>2. Honkai Impact 3rd</p>
+  <img src="papa-freezeria.jpg">
+  <p>3. Papa's Freezeria</p>
+</center>
+<br>
+<center><a name="paperstars"></a></center>
+<center><h2>Making Paperstars</h2></center>
+<br>
+<center>
+  <img src="paperstars-1.jpg">
+  <img src="paperstars-2.jpg">
+  <br>
+  <p align="center">Video: How To Make Paperstars</p>
+    <video width height="500" width="600" controls>
+      <source src="tutorial.mp4" type="video/mp4">
+    </video>
+</center>
+<br>
+<a name="pictures"></a>
+<center><h2>Taking Pictures of Moon</h2></center>
+<br>
+<center>
+  <img src="bulan-1.png" border="1">
+  <img src="bulan-2.jpg" border="1">
+  <img src="bulan-3.jpg" border="1">
+  <img src="bulan-4.jpg" border="1">
+  <img src="bulan-5.jpg" border="1">
+</center>
+<br>
+<audio controls autoplay>
+  <source src="vivaldi-summer.mp3" type="audio/mp3" loop="10">
+</audio>
+<a href="#top">TOP</a>
+</body>
+</html>

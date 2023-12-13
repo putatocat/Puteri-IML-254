@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Playlist</title>
+</head>
+
+
+  <style>
+    body{
+      background: url("wallpaper-2.jpg") no-repeat center center fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      font-family: arial, sans-serif;
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+  </style>
+
+
+<body>
+    <a href="top"></a>
+  <nav class="navbar">
+    <style>
+      body {
+        margin: 0;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .header {
+        background-color: #a33434;
+        padding: 25px;
+        text-align: center;
+      }
+      
+      #navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      #navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 6px 8px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      #navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      #navbar a.active {
+        background-color: #a33434;
+        color: white;
+      }
+      
+      .content {
+        padding: 16px;
+      }
+      
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .sticky + .content {
+        padding-top: 60px;
+      }
+      </style>
+      </head>
+
+      
+      <div id="navbar">
+        
+        <a href="index.html" target="_blank">About Me</a>
+        <a href="my-family.html">Family</a>
+        <a href="education.html">My Education</a></li>
+        <a href="hobby.html">Hobbies</a></li>
+        <a href="favorite-songs.html">Favorite Songs</a>
+        <a href="favorite-games.html">Favorite Games</a>
+        <a href="my-bestfriends.html">My Bestfriends</a>
+      </div>
+    </nav>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
+    
+
+  </head>
+
+
+<h1 align="center"><font color="black">My Playlist</h1></font>
+<br>
+<table width="85%" align="center" cellpadding="5" cellspacing="5" border="1">
+  <tr>
+    <td bgcolor="#ECCA7D" rowspan="5">
+      <center>
+        <img src="anime-bg.jpg" border="1">
+        <h5><marquee direction="left">Japanese Songs</h5></marquee>
+      </center>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Kasanaru Kage by Heart Grows
+      <br>
+      <audio controls>
+      <source src="kasanaru-kage.mp3" type="audio/mp3">
+      </audio>  
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Darling In The Franxx by Escape
+      <br>
+      <audio controls>
+        <source src="darling-in-the-franxx.mp3" type="audio/mp3">
+      </audio>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      History Maker by Fujioka Dean
+      <br>
+      <audio controls>
+        <source src="history-maker.mp3" type="audio/mp3">
+      </audio>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Vogel Im Kafig by Hiroyuki Sawano
+      <br>
+      <audio controls>
+        <source src="vogel-im-kafig.mp3" type="audio/mp3">
+      </audio>
+    </td>
+  </tr>
+
+<tr>
+  <td bgcolor="#EAD29A" rowspan="5">
+    <center>
+      <img src="eng-bg.jpg">
+      <h5><marquee direction="left">English Songs</h5></marquee>
+    </center>
+  </td>
+</tr>
+<tr>
+  <td>
+    Lily by Alan Walker
+    <br>
+    <audio controls>
+      <source src="lily.mp3" type="audio/mp3">
+    </audio>
+  </td>
+</tr>
+<tr>
+  <td>
+    It Will Rain by Bruno Mars
+    <br>
+    <audio controls>
+      <source src="it-will-rain.mp3" type="audio/mp3">
+    </audio>
+  </td>
+</tr>
+<tr>
+  <td>
+    Bad Romance by Lady Gaga
+    <br>
+    <audio controls>
+      <source src="bad-romance.mp3" type="audio/mp3">
+    </audio>
+  </td>
+</tr>
+<tr>
+  <td>
+    Love Story by Taylor Swift
+    <br>
+    <audio controls>
+      <source src="love-story.mp3" type="audio/mp3">
+    </audio>
+  </td>
+</tr>
+
+<tr>
+  <td bgcolor="#ECCA7D" rowspan="5">
+    <center>
+      <img src="song-12.jpg">
+      <h5><marquee direction="left">Malay Songs</h5></marquee>
+    </center>
+  </td>
+</tr>
+<tr>
+  <td>
+    Bayangan Gurauan by Mega
+    <br>
+    <audio controls>
+      <source src="bayangan-gurauan.mp3" type="audio/mp3">
+    </audio>
+  </td>
+</tr>
+<tr>
+  <td>
+    Menanti di Barzakh by Far East
+    <br>
+    <audio controls>
+      <source src="menanti-di-barzakh.mp3" type="audio/mp3">
+    </audio>
+  </td>
+</tr>
+<tr>
+  <td>
+    Sembilu by Ella
+    <br>
+    <audio controls>
+      <source src="sembilu.mp3" type="audio/mp3">
+    </audio>
+  </td>
+</tr>
+<tr>
+  <td>
+    Suci dalam Debu by Iklim
+    <br>
+    <audio controls>
+      <source src="suci-dalam-debu.mp3" type="audio/mp3">
+    </audio>
+  </td>
+</tr>
+
+</table>
+</body>
+</html>
